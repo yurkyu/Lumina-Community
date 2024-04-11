@@ -242,5 +242,133 @@ namespace Community
             CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Z, KeyFlags.Up);
         }
 
+
+        public static void PressEscape()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Escape);
+        }
+
+        public static void PressSpace()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Escape);
+        }
+
+        public static void PressQ()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Q);
+        }
+
+        public static void PressW()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.W);
+        }
+
+        public static void PressE()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.E);
+        }
+
+        public static void PressR()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.R);
+        }
+
+        public static void PressT()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.T);
+        }
+
+        public static void PressY()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Y);
+        }
+
+        public static void PressU()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.U);
+        }
+
+        public static void PressI()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.I);
+        }
+
+        public static void PressO()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.O);
+        }
+
+        public static void PressP()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.P);
+        }
+
+        public static void PressA()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.A);
+        }
+
+        public static void PressS()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.S);
+        }
+
+        public static void PressD()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.D);
+        }
+        public static void PressF()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.F);
+        }
+        public static void PressG()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.G);
+        }
+        public static void PressH()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.H);
+        }
+        public static void PressJ()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.J);
+        }
+        public static void PressK()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.K);
+        }
+        public static void PressL()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.L);
+        }
+        public static void PressZ()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Z);
+        }
+        public static void PressX()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.X);
+        }
+        public static void PressC()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.C);
+        }
+        public static void PressV()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.V);
+        }
+        public static void PressB()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.B);
+        }
+        public static void PressN()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.N);
+        }
+        public static void PressM()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.M);
+        }
+
     }
 }
