@@ -19,13 +19,13 @@ namespace Community
         }
 
         private static void Run()  // Write your macro here! (Inside the brackets)
-        { // Do not delete Util.Focus();
+        { // Do not delete Focus();
             Focus();
 
             WaitOneSec(); // Waits one second
 
             // For example
-            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Escape, KeyFlags.Down); // Presses Escape
+            // CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Escape); - Presses Escape
             
 
         }
