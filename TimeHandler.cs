@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Community
 {
-    partial class Program
+    partial class Program // Ignore that :D
     {
         public static void WaitOneSec()
         {
