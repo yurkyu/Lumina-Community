@@ -125,6 +125,10 @@ namespace Community
         {
             CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Z, KeyFlags.Down);
         }
+        public static void HoldEnter()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Return, KeyFlags.Down);
+        }
 
         // Releases
         public static void ReleaseSpace()
@@ -240,6 +244,11 @@ namespace Community
         public static void ReleaseZ()
         {
             CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Z, KeyFlags.Up);
+        }
+
+        public static void ReleaseEnter()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Return, KeyFlags.Up);
         }
 
 
@@ -369,6 +378,9 @@ namespace Community
         {
             CSInputs.SendInput.Keyboard.Send(KeyboardKeys.M);
         }
-
+        public static void PressEnter()
+        {
+            CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Return);
+        }
     }
 }
