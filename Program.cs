@@ -1,35 +1,32 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Drawing;
-using System.IO;
-using System.Net;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
 using System.Text;
 using CSInputs;
 using CSInputs.Enums;
-using Lumina_Community;
+using Community;
 using SharpHook;
 using SharpHook.Native;
 
 namespace Community
 {
-    class Program
+    partial class Program
     {
 
-        public static void Main(string[] args)
+        public static void Main(string[] args) // MAKE SURE YOUR ROBLOX IS OPEN BEFORE TESTING YOUR MACRO!
         {
             Console.WriteLine("exmp..."); // This will write something on the console
-
+            Thread.Sleep(1000);
             Run();
         }
 
         private static void Run()  // Write your macro here! (Inside the brackets)
         { // Do not delete Util.Focus();
-            Util.Focus();
+            Focus();
+
+            WaitOneSec(); // Waits one second
 
             // For example
             CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Escape, KeyFlags.Down); // Presses Escape
+            
 
         }
     }
