@@ -25,7 +25,7 @@ namespace Community
             WaitOneSec(); // Waits one second
 
             // For example
-            // CSInputs.SendInput.Keyboard.Send(KeyboardKeys.Escape); - Presses Escape
+            // HoldE(); - Holds E
             
 
         }
