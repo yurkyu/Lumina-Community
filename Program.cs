@@ -19,7 +19,7 @@ namespace Community
         }
 
         private static void Run()  // Write your macro here! (Inside the brackets)
-        { // Do not delete Focus();
+        { // Do not touch Focus();
             Focus();
 
             WaitOneSec(); // Waits one second
